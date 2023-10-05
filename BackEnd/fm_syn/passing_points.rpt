@@ -1,0 +1,204 @@
+**************************************************
+Report         : passing_points
+
+Reference      : Ref:/WORK/I2C_controller
+Implementation : imp:/WORK/I2C_controller
+Version        : L-2016.03-SP1
+Date           : Thu Oct  5 22:23:36 2023
+**************************************************
+
+56 Passing compare points:
+
+  Ref  DFF        Ref:/WORK/I2C_controller/N_bits_reg[0]
+  Impl DFF        imp:/WORK/I2C_controller/N_bits_reg[0]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/N_bits_reg[1]
+  Impl DFF        imp:/WORK/I2C_controller/N_bits_reg[1]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/N_bits_reg[2]
+  Impl DFF        imp:/WORK/I2C_controller/N_bits_reg[2]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/N_bits_reg[3]
+  Impl DFF        imp:/WORK/I2C_controller/N_bits_reg[3]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/RX_reg_reg[0]
+  Impl DFF        imp:/WORK/I2C_controller/RX_reg_reg[0]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/RX_reg_reg[1]
+  Impl DFF        imp:/WORK/I2C_controller/RX_reg_reg[1]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/RX_reg_reg[2]
+  Impl DFF        imp:/WORK/I2C_controller/RX_reg_reg[2]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/RX_reg_reg[3]
+  Impl DFF        imp:/WORK/I2C_controller/RX_reg_reg[3]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/RX_reg_reg[4]
+  Impl DFF        imp:/WORK/I2C_controller/RX_reg_reg[4]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/RX_reg_reg[5]
+  Impl DFF        imp:/WORK/I2C_controller/RX_reg_reg[5]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/RX_reg_reg[6]
+  Impl DFF        imp:/WORK/I2C_controller/RX_reg_reg[6]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/RX_reg_reg[7]
+  Impl DFF        imp:/WORK/I2C_controller/RX_reg_reg[7]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/RX_reg_reg[8]
+  Impl DFF        imp:/WORK/I2C_controller/RX_reg_reg[8]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/TX_reg_reg[1]
+  Impl DFF        imp:/WORK/I2C_controller/TX_reg_reg[1]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/TX_reg_reg[2]
+  Impl DFF        imp:/WORK/I2C_controller/TX_reg_reg[2]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/TX_reg_reg[3]
+  Impl DFF        imp:/WORK/I2C_controller/TX_reg_reg[3]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/TX_reg_reg[4]
+  Impl DFF        imp:/WORK/I2C_controller/TX_reg_reg[4]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/TX_reg_reg[5]
+  Impl DFF        imp:/WORK/I2C_controller/TX_reg_reg[5]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/TX_reg_reg[6]
+  Impl DFF        imp:/WORK/I2C_controller/TX_reg_reg[6]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/TX_reg_reg[7]
+  Impl DFF        imp:/WORK/I2C_controller/TX_reg_reg[7]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/TX_reg_reg[8]
+  Impl DFF        imp:/WORK/I2C_controller/TX_reg_reg[8]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/counter_reg[0]
+  Impl DFF        imp:/WORK/I2C_controller/counter_reg[0]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/counter_reg[10]
+  Impl DFF        imp:/WORK/I2C_controller/counter_reg[10]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/counter_reg[11]
+  Impl DFF        imp:/WORK/I2C_controller/counter_reg[11]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/counter_reg[12]
+  Impl DFF        imp:/WORK/I2C_controller/counter_reg[12]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/counter_reg[13]
+  Impl DFF        imp:/WORK/I2C_controller/counter_reg[13]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/counter_reg[14]
+  Impl DFF        imp:/WORK/I2C_controller/counter_reg[14]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/counter_reg[15]
+  Impl DFF        imp:/WORK/I2C_controller/counter_reg[15]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/counter_reg[1]
+  Impl DFF        imp:/WORK/I2C_controller/counter_reg[1]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/counter_reg[2]
+  Impl DFF        imp:/WORK/I2C_controller/counter_reg[2]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/counter_reg[3]
+  Impl DFF        imp:/WORK/I2C_controller/counter_reg[3]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/counter_reg[4]
+  Impl DFF        imp:/WORK/I2C_controller/counter_reg[4]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/counter_reg[5]
+  Impl DFF        imp:/WORK/I2C_controller/counter_reg[5]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/counter_reg[6]
+  Impl DFF        imp:/WORK/I2C_controller/counter_reg[6]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/counter_reg[7]
+  Impl DFF        imp:/WORK/I2C_controller/counter_reg[7]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/counter_reg[8]
+  Impl DFF        imp:/WORK/I2C_controller/counter_reg[8]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/counter_reg[9]
+  Impl DFF        imp:/WORK/I2C_controller/counter_reg[9]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/current_state_reg[0]
+  Impl DFF        imp:/WORK/I2C_controller/current_state_reg[0]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/current_state_reg[1]
+  Impl DFF        imp:/WORK/I2C_controller/current_state_reg[1]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/current_state_reg[2]
+  Impl DFF        imp:/WORK/I2C_controller/current_state_reg[2]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/current_state_reg[3]
+  Impl DFF        imp:/WORK/I2C_controller/current_state_reg[3]
+
+  Ref  DFF        Ref:/WORK/I2C_controller/scl_reg_reg
+  Impl DFF        imp:/WORK/I2C_controller/scl_reg_reg
+
+  Ref  DFF        Ref:/WORK/I2C_controller/sda_reg_reg
+  Impl DFF        imp:/WORK/I2C_controller/sda_reg_reg
+
+  Ref  Port       Ref:/WORK/I2C_controller/ack
+  Impl Port       imp:/WORK/I2C_controller/ack
+
+  Ref  Port       Ref:/WORK/I2C_controller/data_out[0]
+  Impl Port       imp:/WORK/I2C_controller/data_out[0]
+
+  Ref  Port       Ref:/WORK/I2C_controller/data_out[1]
+  Impl Port       imp:/WORK/I2C_controller/data_out[1]
+
+  Ref  Port       Ref:/WORK/I2C_controller/data_out[2]
+  Impl Port       imp:/WORK/I2C_controller/data_out[2]
+
+  Ref  Port       Ref:/WORK/I2C_controller/data_out[3]
+  Impl Port       imp:/WORK/I2C_controller/data_out[3]
+
+  Ref  Port       Ref:/WORK/I2C_controller/data_out[4]
+  Impl Port       imp:/WORK/I2C_controller/data_out[4]
+
+  Ref  Port       Ref:/WORK/I2C_controller/data_out[5]
+  Impl Port       imp:/WORK/I2C_controller/data_out[5]
+
+  Ref  Port       Ref:/WORK/I2C_controller/data_out[6]
+  Impl Port       imp:/WORK/I2C_controller/data_out[6]
+
+  Ref  Port       Ref:/WORK/I2C_controller/data_out[7]
+  Impl Port       imp:/WORK/I2C_controller/data_out[7]
+
+  Ref  Port       Ref:/WORK/I2C_controller/done_tick
+  Impl Port       imp:/WORK/I2C_controller/done_tick
+
+  Ref  Port       Ref:/WORK/I2C_controller/ready
+  Impl Port       imp:/WORK/I2C_controller/ready
+
+  Ref  Port       Ref:/WORK/I2C_controller/scl
+  Impl Port       imp:/WORK/I2C_controller/scl
+
+  Ref  Port       Ref:/WORK/I2C_controller/sda_output_m
+  Impl Port       imp:/WORK/I2C_controller/sda_output_m
+
+ [BBNet: multiply-driven net
+  BBPin: black-box pin
+  Cut:   cut-point
+  DFF:   non-constant DFF register
+  DFF0:  constant 0 DFF register
+  DFF1:  constant 1 DFF register
+  DFFX:  constant X DFF register
+  DFF0X: constrained 0X DFF register
+  DFF1X: constrained 1X DFF register
+  LAT:   non-constant latch register
+  LAT0:  constant 0 latch register
+  LAT1:  constant 1 latch register
+  LATX:  constant X latch register
+  LAT0X: constrained 0X latch register
+  LAT1X: constrained 1X latch register
+  LATCG: clock-gating latch register
+  TLA:   transparent latch register
+  TLA0X: transparent constrained 0X latch register
+  TLA1X: transparent constrained 1X latch register
+  Loop:  cycle break point
+  Port:  primary (top-level) port
+  Und:   undriven signal cut-point
+  Unk:   unknown signal cut-point]
+
+1

@@ -1,0 +1,44 @@
+ 
+****************************************
+Report : area
+Design : I2C_controller
+Version: K-2015.06
+Date   : Thu Oct  5 22:00:15 2023
+****************************************
+
+Library(s) Used:
+
+    scmetro_tsmc_cl013g_rvt_ss_1p08v_125c (File: /home/IC/I2C/std_cells/scmetro_tsmc_cl013g_rvt_ss_1p08v_125c.db)
+
+Number of ports:                           76
+Number of nets:                           532
+Number of cells:                          431
+Number of combinational cells:            386
+Number of sequential cells:                44
+Number of macros/black boxes:               0
+Number of buf/inv:                         55
+Number of references:                      49
+
+Combinational area:               3896.053764
+Buf/Inv area:                      195.332206
+Noncombinational area:            1155.519402
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                  5051.573165
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  ---------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-     Noncombi-  Black-
+                                  Total      Total    national   national   boxes   Design
+--------------------------------  ---------  -------  ---------  ---------  ------  -------------------------
+I2C_controller                    5051.5732    100.0  3666.5973  1155.5194  0.0000  I2C_controller
+add_74                             229.4565      4.5   229.4565     0.0000  0.0000  I2C_controller_DW01_inc_0
+--------------------------------  ---------  -------  ---------  ---------  ------  -------------------------
+Total                                                 3896.0538  1155.5194  0.0000
+
+1

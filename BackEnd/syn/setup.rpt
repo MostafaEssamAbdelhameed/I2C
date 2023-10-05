@@ -1,0 +1,430 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 100
+Design : I2C_controller
+Version: K-2015.06
+Date   : Thu Oct  5 22:00:16 2023
+****************************************
+
+Operating Conditions: scmetro_tsmc_cl013g_rvt_ss_1p08v_125c   Library: scmetro_tsmc_cl013g_rvt_ss_1p08v_125c
+Wire Load Model Mode: top
+
+  Startpoint: counter_reg[6]
+              (rising edge-triggered flip-flop)
+  Endpoint: data_out[7]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  counter_reg[6]/CK (DFFRX1M)              0.00       0.00 r
+  counter_reg[6]/QN (DFFRX1M)              0.38       0.38 f
+  U763/Y (XNOR2X1M)                        0.22       0.60 f
+  U762/Y (NOR4X1M)                         0.27       0.87 r
+  U756/Y (NAND4X1M)                        0.50       1.36 f
+  U723/Y (NOR2X1M)                         0.43       1.80 r
+  U649/Y (MXI2X1M)                         0.20       1.99 r
+  U648/Y (CLKNAND2X2M)                     0.11       2.11 f
+  U519/Y (MX2X2M)                          0.19       2.30 f
+  U518/Y (AND2X2M)                         0.14       2.44 f
+  U517/Y (MX2X2M)                          0.22       2.66 f
+  U652/Y (NOR4X1M)                         0.21       2.87 r
+  U651/Y (CLKMX2X2M)                       0.23       3.10 r
+  U650/Y (CLKNAND2X2M)                     0.08       3.17 f
+  sda_output_m_tri/Y (TBUFX2M)             0.13       3.30 r
+  U780/Y (CLKMX2X2M)                       0.18       3.48 r
+  U777/Y (CLKNAND2X2M)                     0.09       3.57 f
+  U750/Y (NOR3X1M)                         0.30       3.87 r
+  U733/Y (CLKNAND2X2M)                     0.21       4.08 f
+  U724/Y (OAI22X1M)                        0.16       4.25 r
+  U527/Y (MX2X2M)                          0.20       4.45 r
+  U653/Y (NOR2BX1M)                        0.11       4.56 r
+  data_out[7] (out)                        0.00       4.56 r
+  data arrival time                                   4.56
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: counter_reg[6]
+              (rising edge-triggered flip-flop)
+  Endpoint: data_out[6]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  counter_reg[6]/CK (DFFRX1M)              0.00       0.00 r
+  counter_reg[6]/QN (DFFRX1M)              0.38       0.38 f
+  U763/Y (XNOR2X1M)                        0.22       0.60 f
+  U762/Y (NOR4X1M)                         0.27       0.87 r
+  U756/Y (NAND4X1M)                        0.50       1.36 f
+  U723/Y (NOR2X1M)                         0.43       1.80 r
+  U649/Y (MXI2X1M)                         0.20       1.99 r
+  U648/Y (CLKNAND2X2M)                     0.11       2.11 f
+  U519/Y (MX2X2M)                          0.19       2.30 f
+  U518/Y (AND2X2M)                         0.14       2.44 f
+  U517/Y (MX2X2M)                          0.22       2.66 f
+  U652/Y (NOR4X1M)                         0.21       2.87 r
+  U651/Y (CLKMX2X2M)                       0.23       3.10 r
+  U650/Y (CLKNAND2X2M)                     0.08       3.17 f
+  sda_output_m_tri/Y (TBUFX2M)             0.13       3.30 r
+  U780/Y (CLKMX2X2M)                       0.18       3.48 r
+  U777/Y (CLKNAND2X2M)                     0.09       3.57 f
+  U750/Y (NOR3X1M)                         0.30       3.87 r
+  U733/Y (CLKNAND2X2M)                     0.21       4.08 f
+  U726/Y (OAI22X1M)                        0.16       4.25 r
+  U526/Y (MX2X2M)                          0.20       4.45 r
+  U654/Y (NOR2BX1M)                        0.11       4.56 r
+  data_out[6] (out)                        0.00       4.56 r
+  data arrival time                                   4.56
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: counter_reg[6]
+              (rising edge-triggered flip-flop)
+  Endpoint: data_out[4]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  counter_reg[6]/CK (DFFRX1M)              0.00       0.00 r
+  counter_reg[6]/QN (DFFRX1M)              0.38       0.38 f
+  U763/Y (XNOR2X1M)                        0.22       0.60 f
+  U762/Y (NOR4X1M)                         0.27       0.87 r
+  U756/Y (NAND4X1M)                        0.50       1.36 f
+  U723/Y (NOR2X1M)                         0.43       1.80 r
+  U649/Y (MXI2X1M)                         0.20       1.99 r
+  U648/Y (CLKNAND2X2M)                     0.11       2.11 f
+  U519/Y (MX2X2M)                          0.19       2.30 f
+  U518/Y (AND2X2M)                         0.14       2.44 f
+  U517/Y (MX2X2M)                          0.22       2.66 f
+  U652/Y (NOR4X1M)                         0.21       2.87 r
+  U651/Y (CLKMX2X2M)                       0.23       3.10 r
+  U650/Y (CLKNAND2X2M)                     0.08       3.17 f
+  sda_output_m_tri/Y (TBUFX2M)             0.13       3.30 r
+  U780/Y (CLKMX2X2M)                       0.18       3.48 r
+  U777/Y (CLKNAND2X2M)                     0.09       3.57 f
+  U750/Y (NOR3X1M)                         0.30       3.87 r
+  U733/Y (CLKNAND2X2M)                     0.21       4.08 f
+  U730/Y (OAI22X1M)                        0.16       4.25 r
+  U524/Y (MX2X2M)                          0.20       4.45 r
+  U656/Y (NOR2BX1M)                        0.11       4.56 r
+  data_out[4] (out)                        0.00       4.56 r
+  data arrival time                                   4.56
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: counter_reg[6]
+              (rising edge-triggered flip-flop)
+  Endpoint: data_out[3]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  counter_reg[6]/CK (DFFRX1M)              0.00       0.00 r
+  counter_reg[6]/QN (DFFRX1M)              0.38       0.38 f
+  U763/Y (XNOR2X1M)                        0.22       0.60 f
+  U762/Y (NOR4X1M)                         0.27       0.87 r
+  U756/Y (NAND4X1M)                        0.50       1.36 f
+  U723/Y (NOR2X1M)                         0.43       1.80 r
+  U649/Y (MXI2X1M)                         0.20       1.99 r
+  U648/Y (CLKNAND2X2M)                     0.11       2.11 f
+  U519/Y (MX2X2M)                          0.19       2.30 f
+  U518/Y (AND2X2M)                         0.14       2.44 f
+  U517/Y (MX2X2M)                          0.22       2.66 f
+  U652/Y (NOR4X1M)                         0.21       2.87 r
+  U651/Y (CLKMX2X2M)                       0.23       3.10 r
+  U650/Y (CLKNAND2X2M)                     0.08       3.17 f
+  sda_output_m_tri/Y (TBUFX2M)             0.13       3.30 r
+  U780/Y (CLKMX2X2M)                       0.18       3.48 r
+  U777/Y (CLKNAND2X2M)                     0.09       3.57 f
+  U750/Y (NOR3X1M)                         0.30       3.87 r
+  U749/Y (CLKNAND2X2M)                     0.21       4.08 f
+  U735/Y (OAI22X1M)                        0.16       4.24 r
+  U523/Y (MX2X2M)                          0.20       4.44 r
+  U657/Y (NOR2BX1M)                        0.11       4.56 r
+  data_out[3] (out)                        0.00       4.56 r
+  data arrival time                                   4.56
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: counter_reg[6]
+              (rising edge-triggered flip-flop)
+  Endpoint: data_out[2]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  counter_reg[6]/CK (DFFRX1M)              0.00       0.00 r
+  counter_reg[6]/QN (DFFRX1M)              0.38       0.38 f
+  U763/Y (XNOR2X1M)                        0.22       0.60 f
+  U762/Y (NOR4X1M)                         0.27       0.87 r
+  U756/Y (NAND4X1M)                        0.50       1.36 f
+  U723/Y (NOR2X1M)                         0.43       1.80 r
+  U649/Y (MXI2X1M)                         0.20       1.99 r
+  U648/Y (CLKNAND2X2M)                     0.11       2.11 f
+  U519/Y (MX2X2M)                          0.19       2.30 f
+  U518/Y (AND2X2M)                         0.14       2.44 f
+  U517/Y (MX2X2M)                          0.22       2.66 f
+  U652/Y (NOR4X1M)                         0.21       2.87 r
+  U651/Y (CLKMX2X2M)                       0.23       3.10 r
+  U650/Y (CLKNAND2X2M)                     0.08       3.17 f
+  sda_output_m_tri/Y (TBUFX2M)             0.13       3.30 r
+  U780/Y (CLKMX2X2M)                       0.18       3.48 r
+  U777/Y (CLKNAND2X2M)                     0.09       3.57 f
+  U750/Y (NOR3X1M)                         0.30       3.87 r
+  U749/Y (CLKNAND2X2M)                     0.21       4.08 f
+  U737/Y (OAI22X1M)                        0.16       4.24 r
+  U522/Y (MX2X2M)                          0.20       4.44 r
+  U658/Y (NOR2BX1M)                        0.11       4.56 r
+  data_out[2] (out)                        0.00       4.56 r
+  data arrival time                                   4.56
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: counter_reg[6]
+              (rising edge-triggered flip-flop)
+  Endpoint: data_out[1]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  counter_reg[6]/CK (DFFRX1M)              0.00       0.00 r
+  counter_reg[6]/QN (DFFRX1M)              0.38       0.38 f
+  U763/Y (XNOR2X1M)                        0.22       0.60 f
+  U762/Y (NOR4X1M)                         0.27       0.87 r
+  U756/Y (NAND4X1M)                        0.50       1.36 f
+  U723/Y (NOR2X1M)                         0.43       1.80 r
+  U649/Y (MXI2X1M)                         0.20       1.99 r
+  U648/Y (CLKNAND2X2M)                     0.11       2.11 f
+  U519/Y (MX2X2M)                          0.19       2.30 f
+  U518/Y (AND2X2M)                         0.14       2.44 f
+  U517/Y (MX2X2M)                          0.22       2.66 f
+  U652/Y (NOR4X1M)                         0.21       2.87 r
+  U651/Y (CLKMX2X2M)                       0.23       3.10 r
+  U650/Y (CLKNAND2X2M)                     0.08       3.17 f
+  sda_output_m_tri/Y (TBUFX2M)             0.13       3.30 r
+  U780/Y (CLKMX2X2M)                       0.18       3.48 r
+  U777/Y (CLKNAND2X2M)                     0.09       3.57 f
+  U750/Y (NOR3X1M)                         0.30       3.87 r
+  U749/Y (CLKNAND2X2M)                     0.21       4.08 f
+  U741/Y (OAI22X1M)                        0.16       4.24 r
+  U521/Y (MX2X2M)                          0.20       4.44 r
+  U659/Y (NOR2BX1M)                        0.11       4.56 r
+  data_out[1] (out)                        0.00       4.56 r
+  data arrival time                                   4.56
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: counter_reg[6]
+              (rising edge-triggered flip-flop)
+  Endpoint: data_out[0]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  counter_reg[6]/CK (DFFRX1M)              0.00       0.00 r
+  counter_reg[6]/QN (DFFRX1M)              0.38       0.38 f
+  U763/Y (XNOR2X1M)                        0.22       0.60 f
+  U762/Y (NOR4X1M)                         0.27       0.87 r
+  U756/Y (NAND4X1M)                        0.50       1.36 f
+  U723/Y (NOR2X1M)                         0.43       1.80 r
+  U649/Y (MXI2X1M)                         0.20       1.99 r
+  U648/Y (CLKNAND2X2M)                     0.11       2.11 f
+  U519/Y (MX2X2M)                          0.19       2.30 f
+  U518/Y (AND2X2M)                         0.14       2.44 f
+  U517/Y (MX2X2M)                          0.22       2.66 f
+  U652/Y (NOR4X1M)                         0.21       2.87 r
+  U651/Y (CLKMX2X2M)                       0.23       3.10 r
+  U650/Y (CLKNAND2X2M)                     0.08       3.17 f
+  sda_output_m_tri/Y (TBUFX2M)             0.13       3.30 r
+  U780/Y (CLKMX2X2M)                       0.18       3.48 r
+  U777/Y (CLKNAND2X2M)                     0.09       3.57 f
+  U750/Y (NOR3X1M)                         0.30       3.87 r
+  U749/Y (CLKNAND2X2M)                     0.21       4.08 f
+  U745/Y (OAI22X1M)                        0.16       4.24 r
+  U520/Y (MX2X2M)                          0.20       4.44 r
+  U660/Y (NOR2BX1M)                        0.11       4.56 r
+  data_out[0] (out)                        0.00       4.56 r
+  data arrival time                                   4.56
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: counter_reg[6]
+              (rising edge-triggered flip-flop)
+  Endpoint: data_out[5]
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  counter_reg[6]/CK (DFFRX1M)              0.00       0.00 r
+  counter_reg[6]/QN (DFFRX1M)              0.38       0.38 f
+  U763/Y (XNOR2X1M)                        0.22       0.60 f
+  U762/Y (NOR4X1M)                         0.27       0.87 r
+  U756/Y (NAND4X1M)                        0.50       1.36 f
+  U723/Y (NOR2X1M)                         0.43       1.80 r
+  U649/Y (MXI2X1M)                         0.20       1.99 r
+  U648/Y (CLKNAND2X2M)                     0.11       2.11 f
+  U519/Y (MX2X2M)                          0.19       2.30 f
+  U518/Y (AND2X2M)                         0.14       2.44 f
+  U517/Y (MX2X2M)                          0.22       2.66 f
+  U652/Y (NOR4X1M)                         0.21       2.87 r
+  U651/Y (CLKMX2X2M)                       0.23       3.10 r
+  U650/Y (CLKNAND2X2M)                     0.08       3.17 f
+  sda_output_m_tri/Y (TBUFX2M)             0.13       3.30 r
+  U780/Y (CLKMX2X2M)                       0.18       3.48 r
+  U777/Y (CLKNAND2X2M)                     0.09       3.57 f
+  U750/Y (NOR3X1M)                         0.30       3.87 r
+  U733/Y (CLKNAND2X2M)                     0.21       4.08 f
+  U728/Y (OAI22X1M)                        0.16       4.24 r
+  U525/Y (MX2X2M)                          0.20       4.44 r
+  U655/Y (NOR2BX1M)                        0.11       4.56 r
+  data_out[5] (out)                        0.00       4.56 r
+  data arrival time                                   4.56
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: counter_reg[6]
+              (rising edge-triggered flip-flop)
+  Endpoint: ack (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  counter_reg[6]/CK (DFFRX1M)              0.00       0.00 r
+  counter_reg[6]/QN (DFFRX1M)              0.38       0.38 f
+  U763/Y (XNOR2X1M)                        0.22       0.60 f
+  U762/Y (NOR4X1M)                         0.27       0.87 r
+  U756/Y (NAND4X1M)                        0.50       1.36 f
+  U723/Y (NOR2X1M)                         0.43       1.80 r
+  U649/Y (MXI2X1M)                         0.20       1.99 r
+  U648/Y (CLKNAND2X2M)                     0.11       2.11 f
+  U519/Y (MX2X2M)                          0.19       2.30 f
+  U518/Y (AND2X2M)                         0.14       2.44 f
+  U517/Y (MX2X2M)                          0.22       2.66 f
+  U652/Y (NOR4X1M)                         0.21       2.87 r
+  U651/Y (CLKMX2X2M)                       0.23       3.10 r
+  U650/Y (CLKNAND2X2M)                     0.08       3.17 f
+  sda_output_m_tri/Y (TBUFX2M)             0.13       3.30 r
+  U780/Y (CLKMX2X2M)                       0.18       3.48 r
+  U777/Y (CLKNAND2X2M)                     0.09       3.57 f
+  U752/Y (OAI32X1M)                        0.27       3.84 r
+  U528/Y (MX2X2M)                          0.23       4.06 r
+  ack (out)                                0.00       4.06 r
+  data arrival time                                   4.06
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: counter_reg[6]
+              (rising edge-triggered flip-flop)
+  Endpoint: sda_output_m
+            (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  counter_reg[6]/CK (DFFRX1M)              0.00       0.00 r
+  counter_reg[6]/QN (DFFRX1M)              0.38       0.38 f
+  U763/Y (XNOR2X1M)                        0.22       0.60 f
+  U762/Y (NOR4X1M)                         0.27       0.87 r
+  U756/Y (NAND4X1M)                        0.50       1.36 f
+  U723/Y (NOR2X1M)                         0.43       1.80 r
+  U649/Y (MXI2X1M)                         0.20       1.99 r
+  U648/Y (CLKNAND2X2M)                     0.11       2.11 f
+  U519/Y (MX2X2M)                          0.19       2.30 f
+  U518/Y (AND2X2M)                         0.14       2.44 f
+  U517/Y (MX2X2M)                          0.22       2.66 f
+  U652/Y (NOR4X1M)                         0.21       2.87 r
+  U651/Y (CLKMX2X2M)                       0.23       3.10 r
+  U650/Y (CLKNAND2X2M)                     0.08       3.17 f
+  sda_output_m_tri/Y (TBUFX2M)             0.18       3.36 f
+  sda_output_m (out)                       0.00       3.36 f
+  data arrival time                                   3.36
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: current_state_reg[1]
+              (rising edge-triggered flip-flop)
+  Endpoint: ready (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  current_state_reg[1]/CK (DFFRQX4M)       0.00       0.00 r
+  current_state_reg[1]/Q (DFFRQX4M)        0.91       0.91 r
+  U635/Y (CLKINVX1M)                       0.34       1.25 f
+  U617/Y (NOR3X1M)                         0.42       1.67 r
+  U616/Y (NOR2X1M)                         0.13       1.80 f
+  U577/Y (CLKINVX1M)                       0.06       1.86 r
+  ready (out)                              0.00       1.86 r
+  data arrival time                                   1.86
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: counter_reg[6]
+              (rising edge-triggered flip-flop)
+  Endpoint: done_tick (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  counter_reg[6]/CK (DFFRX1M)              0.00       0.00 r
+  counter_reg[6]/QN (DFFRX1M)              0.38       0.38 f
+  U763/Y (XNOR2X1M)                        0.22       0.60 f
+  U762/Y (NOR4X1M)                         0.27       0.87 r
+  U756/Y (NAND4X1M)                        0.50       1.36 f
+  U663/Y (NOR3X1M)                         0.31       1.67 r
+  done_tick (out)                          0.00       1.67 r
+  data arrival time                                   1.67
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: scl_reg_reg
+              (rising edge-triggered flip-flop)
+  Endpoint: scl (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  scl_reg_reg/CK (DFFSQX2M)                0.00       0.00 r
+  scl_reg_reg/Q (DFFSQX2M)                 0.43       0.43 f
+  scl (out)                                0.00       0.43 f
+  data arrival time                                   0.43
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1
